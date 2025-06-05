@@ -13,7 +13,7 @@ const Home = () => {
         />
       </Link>
 
-      <h1 className="font-bold text-2xl text-green-500">
+      <h1 className="font-bold text-2xl text-green-500 text-center">
         Touch the image to start
       </h1>
     </div>
