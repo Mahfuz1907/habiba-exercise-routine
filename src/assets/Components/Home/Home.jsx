@@ -16,6 +16,12 @@ const Home = () => {
       <h1 className="font-bold text-2xl text-green-500 text-center">
         Touch the image to start
       </h1>
+
+      <progress
+        className="progress text-green-400 w-full"
+        value={0}
+        max="100"
+      ></progress>
     </div>
   );
 };
